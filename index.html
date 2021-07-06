@@ -5,9 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="menu-bar">
+            <div class="logo">
+                <a href="#">F<span class="symbol">oo</span>dHub</a>
+            </div>
+            <ul class="menu">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--home page starts-->
+    <section class="home" id="home">
+        <div class="first-part">
+            <div class="split eat">
+                <h1 class="healthy">Eat <span class="fresh">Fresh</span><br>Stay Healthy</h1>
+                <p>Food tastes <b>better</b> when you eat it with your family. It is the ingredient who binds us together.</p>
+                <br><br>
+                <a class="link-button" href="https://kfcbd.com/"target="_blank">Order Now</a>
+            </div>
+            <div class="split">
+                <img src="img/R.jpg" alt="healthy food">
+            </div>
+        </div>
+    </section>
     
+    <!--home page ends-->
+
+    <!--about-section starts-->
+    <section class="about-section">
+        <div class="second-part">
+            <div class="split">
+                <img src="img/profile-bg.png" alt="me">
+            </div>
+            <div class="split chef">
+                <h1 class="about">About</h1>
+                <p>Our Chefs offer you perfect cooking, best served dishes with fresh ingredients and old recipes. We have only carefully sourced and seasonal ingredients in our disposal to make rustic dishes. We provide you with daily self-made bread, sourdough pizza, roasted fish-meat-vegetables and many more.</p>
+                <br><br>
+                <a class="link-button" href="https://www.linkedin.com/in/uhlanoong-rakhine-81b173137/"target="_blank">Contact Us</a>
+            </div>
+        </div>
+    </section>
+    <!--about-section ends-->
+
+    <!--service-section starts-->
+    <section class="service-section">
+        <h2 class="fast-food">Fast Food Recipes</h2>
+        <p class="india">India in terms of food is diverse. There is no universal thumb rule which defines Indian food. The street food available in major cities will have a few common delicacies. The best part about street food is that one can enjoy it without any inhibitions. Street food’s unique characteristic is defined by the fact that it clearly represent local flavour.</p>
+        
+        <div class="third-part">
+            <div class="gallery">
+                <img src="img/fruit-chaat.jpg" alt="fruit-chaat"  class="recipes">
+                <h3>Fruit-Chaat</h3>
+                <p class="desc">Fruit Chaat is an Indian dish that is more popular in Northern India, especially in the region of Uttar Pradesh and Punjab.A chaat is a savory Indian dish.</p>
+            </div>
+            <div class="gallery">
+                <img src="img/masala-papad.jpg" alt="masala-papad" class="recipes">
+                <h3>Masala Papad</h3>
+                <p class="desc">Masala Papad is a very popular North Indian snack / starter dish. A refreshing & light snack, Masala Papads are perfect for any occasion with crispy papads.</p>
+            </div>
+            <div class="gallery">
+                <img src="img/chicken-supreme-pizza.jpg" alt="chicken-supreme" class="recipes">
+                <h3>Chicken Supreme Pizza</h3>
+                <P class="desc">Chicken Supreme Pizza is a popular and delicious pizza variety made with chicken, capsicum, olives, mushrooms, tomatoes and onions with plenty of cheese.</P>
+            </div>
+        </div>
+    </section>
+    <!--service-section ends-->
+
+    <!--contact-area starts-->
+    <section class="contact-area">
+        <h3 class="news-letter">Subscribe to our Newsletter</h3>
+        <form>
+            <div class="field">
+                <input type="text" placeholder="Full Name" name="name"required>
+                <input type="text" placeholder="E-mail" name="email"required>
+            </div>
+            <div class="field">
+                <input type="submit" value="Subscribe">
+            </div>
+        </form>
+    </section>
+    <!--contact-area ends-->
+
+    <footer>
+        <h1>F<span class="symbol">oo</span>dHub</h1>
+        <p class="author">Copywrite ©2021 By Author | All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
